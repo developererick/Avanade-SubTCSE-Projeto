@@ -12,7 +12,9 @@
         {
             RoleName = roleName;
         }
-
+        
+        //Init aliado ao tipo record da classe definem que essa prop
+        //só pode ser setada pelo construtor
         public string Id { get; init; }
 
         public string RoleName { get; init; }
