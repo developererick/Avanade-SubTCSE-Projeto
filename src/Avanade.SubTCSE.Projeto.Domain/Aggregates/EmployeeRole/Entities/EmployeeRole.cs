@@ -1,6 +1,6 @@
 ﻿namespace Avanade.SubTCSE.Projeto.Domain.Aggregates.EmployeeRole.Entities
 {
-    public record EmployeeRole
+    public record EmployeeRole: BaseEntity<string>
     {
         public EmployeeRole(string id, string roleName)
         {
@@ -15,10 +15,6 @@
         
         //Init aliado ao tipo record da classe definem que essa prop
         //só pode ser setada pelo construtor
-        public string Id { get; init; }
-
         public string RoleName { get; init; }
-
-
     }
 }
