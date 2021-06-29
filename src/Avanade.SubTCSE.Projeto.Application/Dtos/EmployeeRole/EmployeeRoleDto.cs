@@ -1,8 +1,9 @@
-﻿namespace Avanade.SubTCSE.Projeto.Application.Dtos.EmployeeRole
+﻿using Avanade.SubTCSE.Projeto.Application.Dtos.Base;
+
+namespace Avanade.SubTCSE.Projeto.Application.Dtos.EmployeeRole
 {
-    public class EmployeeRoleDto
+    public class EmployeeRoleDto:BaseDto
     {
-        public int Identificador { get; set; }
         public string Cargo { get; set; }
     }
 }
