@@ -15,7 +15,7 @@ namespace Avanade.SubTCSE.Projeto.Application.AutoMapperConfigs.Profiles.Employe
                             birthday: ctor.Aniversario,
                             active: ctor.Ativo,
                             salary: ctor.Salario,
-                            EmployeeRole: res.Mapper.Map<Domain.Aggregates.EmployeeRole.Entities.EmployeeRole>(ctor.Cargo)
+                            employeeRole: res.Mapper.Map<Domain.Aggregates.EmployeeRole.Entities.EmployeeRole>(ctor.Cargo)
                         );
                 })
                 .ForAllOtherMembers(i => i.Ignore());
