@@ -1,0 +1,12 @@
+﻿C:\Projetos\Avanade-SubTCSE-Projeto\src\Avanade.SubTCSE.Projeto.Api\Controllers\EmployeeRoleController.cs
+C:\Projetos\Avanade-SubTCSE-Projeto\src\Avanade.SubTCSE.Projeto.Api\Program.cs
+C:\Projetos\Avanade-SubTCSE-Projeto\src\Avanade.SubTCSE.Projeto.Api\Startup.cs
+C:\Projetos\Avanade-SubTCSE-Projeto\src\Avanade.SubTCSE.Projeto.Api\WeatherForecast.cs
+C:\Projetos\Avanade-SubTCSE-Projeto\src\Avanade.SubTCSE.Projeto.Api\obj\Debug\net5.0\.NETCoreApp,Version=v5.0.AssemblyAttributes.cs
+C:\Projetos\Avanade-SubTCSE-Projeto\src\Avanade.SubTCSE.Projeto.Api\obj\Debug\net5.0\Avanade.SubTCSE.Projeto.Api.AssemblyInfo.cs
+C:\Projetos\Avanade-SubTCSE-Projeto\src\Avanade.SubTCSE.Projeto.Api\obj\Debug\net5.0\Avanade.SubTCSE.Projeto.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Projetos\Avanade-SubTCSE-Projeto\src\Avanade.SubTCSE.Projeto.Api\appsettings.Development.json
+C:\Projetos\Avanade-SubTCSE-Projeto\src\Avanade.SubTCSE.Projeto.Api\appsettings.json
+C:\Projetos\Avanade-SubTCSE-Projeto\src\Avanade.SubTCSE.Projeto.Api\Dockerfile
+C:\Projetos\Avanade-SubTCSE-Projeto\src\Avanade.SubTCSE.Projeto.Api\Properties\launchSettings.json
+C:\Projetos\Avanade-SubTCSE-Projeto\src\.dockerignore

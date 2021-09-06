@@ -1,4 +1,6 @@
-﻿namespace Avanade.SubTCSE.Projeto.Domain.Aggregates
+﻿using FluentValidation.Results;
+
+namespace Avanade.SubTCSE.Projeto.Domain.Aggregates
 {
     /// <summary>
     /// Classe base para definição do id das classes
@@ -7,5 +9,7 @@
     public record BaseEntity<Tid>
     {
         public Tid Id { get; set; }
+
+        public ValidationResult ValidationResult { get; set; }
     }
 }

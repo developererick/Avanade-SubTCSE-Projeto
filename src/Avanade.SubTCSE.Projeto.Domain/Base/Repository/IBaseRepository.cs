@@ -12,8 +12,8 @@ namespace Avanade.SubTCSE.Projeto.Domain.Base.Repository
     public interface IBaseRepository<TEntity,Tid>
         where TEntity : BaseEntity<Tid>
     {
-        Task<TEntity> Add(TEntity entity);
+        Task<TEntity> AddAsync(TEntity entity);
 
-        Task <TEntity> FindById(Tid id);
+        Task <TEntity> FindByIdAsync(Tid id);
     }
 }
