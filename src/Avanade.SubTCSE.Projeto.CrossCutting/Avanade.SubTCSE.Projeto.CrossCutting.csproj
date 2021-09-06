@@ -5,7 +5,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Avanade.SubTCSE.Projeto.Application\Avanade.SubTCSE.Projeto.Application.csproj" />
+    <ProjectReference Include="..\Avanade.SubTCSE.Projeto.Data\Avanade.SubTCSE.Projeto.Data.csproj" />
   </ItemGroup>
 
 </Project>

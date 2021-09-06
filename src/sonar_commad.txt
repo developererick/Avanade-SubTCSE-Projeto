@@ -1,3 +1,0 @@
-dotnet sonarscanner begin /k:"Avanade.SubTCSE.Projeto.Api" /d:sonar.host.url="http://localhost:9000" /d:sonar.login="0cd23dba4e49ad57942a70ef5498a7e4e6c0c199"
-dotnet build
-dotnet sonarscanner end /d:sonar.login="0cd23dba4e49ad57942a70ef5498a7e4e6c0c199"
