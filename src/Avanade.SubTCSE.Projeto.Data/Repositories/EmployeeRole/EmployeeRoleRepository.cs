@@ -1,5 +1,6 @@
 ﻿using Avanade.SubTCSE.Projeto.Data.Repositories.Base;
 using Avanade.SubTCSE.Projeto.Domain.Aggregates.EmployeeRole.Interfaces.Repository;
+using Avanade.SubTCSE.Projeto.Domain.Base.Repository.MongoDB;
 using System.Threading.Tasks;
 
 namespace Avanade.SubTCSE.Projeto.Data.Repositories.EmployeeRole
@@ -8,9 +9,10 @@ namespace Avanade.SubTCSE.Projeto.Data.Repositories.EmployeeRole
         : BaseRepository<Domain.Aggregates.EmployeeRole.Entities.EmployeeRole, string>
         , IEmployeeRoleRepository
     {
-        public override Task<Domain.Aggregates.EmployeeRole.Entities.EmployeeRole> AddAsync(Domain.Aggregates.EmployeeRole.Entities.EmployeeRole entity)
+        public EmployeeRoleRepository(IMongoDBContext mongoDBContext)
+            :base(mongoDBContext,"employeeRole")
         {
-            return base.AddAsync(entity);
+
         }
     }
 }

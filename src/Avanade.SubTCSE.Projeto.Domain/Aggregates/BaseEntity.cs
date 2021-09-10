@@ -1,4 +1,6 @@
 ﻿using FluentValidation.Results;
+using MongoDB.Bson.Serialization.Attributes;
+using MongoDB.Bson.Serialization.IdGenerators;
 
 namespace Avanade.SubTCSE.Projeto.Domain.Aggregates
 {
@@ -8,8 +10,10 @@ namespace Avanade.SubTCSE.Projeto.Domain.Aggregates
     /// <typeparam name="Tid">Parametro alias(apelido) para o tipo de dado do id da classe origem</typeparam>
     public record BaseEntity<Tid>
     {
+        [BsonId(IdGenerator = typeof(StringObjectIdGenerator))]
         public Tid Id { get; set; }
 
+        [BsonIgnore]
         public ValidationResult ValidationResult { get; set; }
     }
 }

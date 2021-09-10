@@ -4,6 +4,8 @@ using Avanade.SubTCSE.Projeto.Data.Repositories.Base.MongoDB;
 using Avanade.SubTCSE.Projeto.Data.Repositories.EmployeeRole;
 using Avanade.SubTCSE.Projeto.Domain.Aggregates.EmployeeRole.Entities;
 using Avanade.SubTCSE.Projeto.Domain.Aggregates.EmployeeRole.Interfaces.Repository;
+using Avanade.SubTCSE.Projeto.Domain.Aggregates.EmployeeRole.Interfaces.Services;
+using Avanade.SubTCSE.Projeto.Domain.Aggregates.EmployeeRole.Services;
 using Avanade.SubTCSE.Projeto.Domain.Aggregates.EmployeeRole.Validators;
 using Avanade.SubTCSE.Projeto.Domain.Base.Repository.MongoDB;
 using FluentValidation;
@@ -20,6 +22,8 @@ namespace Avanade.SubTCSE.Projeto.CrossCutting
             services.AddSingleton<IMongoDBContext, MongoDBContext>();
             
             services.AddScoped<IEmployeeRoleAppService, EmployeeRoleAppService>();
+
+            services.AddScoped<IEmployeeRoleService, EmployeeRoleService>();
             
             services.AddScoped<IEmployeeRoleRepository, EmployeeRoleRepository>();
 
