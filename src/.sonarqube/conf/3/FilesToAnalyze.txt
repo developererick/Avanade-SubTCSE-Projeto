@@ -1,4 +1,0 @@
-﻿C:\Projetos\Avanade-SubTCSE-Projeto\src\Avanade.SubTCSE.Projeto.Data\Repositories\Base\BaseRepository.cs
-C:\Projetos\Avanade-SubTCSE-Projeto\src\Avanade.SubTCSE.Projeto.Data\Repositories\Base\MongoDB\MongoDBContext.cs
-C:\Projetos\Avanade-SubTCSE-Projeto\src\Avanade.SubTCSE.Projeto.Data\Repositories\EmployeeRole\EmployeeRoleRepository.cs
-C:\Projetos\Avanade-SubTCSE-Projeto\src\Avanade.SubTCSE.Projeto.Data\Repositories\Employee\EmployeeRepository.cs

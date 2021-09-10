@@ -1,8 +1,0 @@
-r
-iC:\Projetos\Avanade-SubTCSE-Projeto\src\Avanade.SubTCSE.Projeto.Api\Controllers\EmployeeRoleController.csutf-8W
-NC:\Projetos\Avanade-SubTCSE-Projeto\src\Avanade.SubTCSE.Projeto.Api\Program.csutf-8^
-NC:\Projetos\Avanade-SubTCSE-Projeto\src\Avanade.SubTCSE.Projeto.Api\Startup.cswindows-1252_
-VC:\Projetos\Avanade-SubTCSE-Projeto\src\Avanade.SubTCSE.Projeto.Api\WeatherForecast.csutf-8è
-ÉC:\Projetos\Avanade-SubTCSE-Projeto\src\Avanade.SubTCSE.Projeto.Api\obj\Debug\net5.0\.NETCoreApp,Version=v5.0.AssemblyAttributes.csutf-8å
-ÄC:\Projetos\Avanade-SubTCSE-Projeto\src\Avanade.SubTCSE.Projeto.Api\obj\Debug\net5.0\Avanade.SubTCSE.Projeto.Api.AssemblyInfo.csutf-8ü
-ìC:\Projetos\Avanade-SubTCSE-Projeto\src\Avanade.SubTCSE.Projeto.Api\obj\Debug\net5.0\Avanade.SubTCSE.Projeto.Api.MvcApplicationPartsAssemblyInfo.csutf-8
