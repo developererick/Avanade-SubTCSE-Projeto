@@ -48,5 +48,15 @@ namespace Avanade.SubTCSE.Projeto.Api.Controllers
             var item = await _employeeRoleAppService.FindAllEmployeeRoleAsync();
             return Ok(item);
         }
+
+        [HttpGet(template:"{id}")]
+        [Produces(MediaTypeNames.Application.Json)]
+        [ProducesResponseType(typeof(EmployeeRoleDto), StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+        public async Task<IActionResult> GetByIdAsync(string Id)
+        {
+            var item = await _employeeRoleAppService.FindEmployeeRoleAsync(Id);
+            return Ok(item);
+        }
     }
 }

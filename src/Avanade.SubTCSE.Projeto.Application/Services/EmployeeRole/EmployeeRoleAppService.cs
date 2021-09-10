@@ -41,5 +41,11 @@ namespace Avanade.SubTCSE.Projeto.Application.Services.EmployeeRole
             var item = await _employeeRoleService.GetAllAsync();
             return _mapper.Map<List<Domain.Aggregates.EmployeeRole.Entities.EmployeeRole>,List<EmployeeRoleDto>>(item);
         }
+
+        public async Task<EmployeeRoleDto> FindEmployeeRoleAsync(string id)
+        {
+            var item = await _employeeRoleService.GetById(id);
+            return _mapper.Map<Domain.Aggregates.EmployeeRole.Entities.EmployeeRole, EmployeeRoleDto>(item);
+        }
     }
 }

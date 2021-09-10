@@ -33,7 +33,9 @@ namespace Avanade.SubTCSE.Projeto.Data.Repositories.Base
 
         public virtual async Task<TEntity> FindByIdAsync(Tid id)
         {
-            throw new System.NotImplementedException();
+            var filter = Builders<TEntity>.Filter.Eq("_id", id);
+            var item = await _collection.FindAsync(filter);
+            return item.FirstOrDefault();
         }
     }
 }

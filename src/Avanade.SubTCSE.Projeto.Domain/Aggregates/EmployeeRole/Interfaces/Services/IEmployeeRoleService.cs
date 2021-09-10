@@ -8,5 +8,7 @@ namespace Avanade.SubTCSE.Projeto.Domain.Aggregates.EmployeeRole.Interfaces.Serv
         Task<Entities.EmployeeRole> AddEmployeeRoleAsync(Entities.EmployeeRole employeeRole);
 
         Task<List<Entities.EmployeeRole>> GetAllAsync();
+
+        Task<Entities.EmployeeRole> GetById(string Id); //TODO: trocar para generics
     }
 }
